@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2",
+    "up": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2",
+    "north": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2",
+    "east": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2",
+    "south": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2",
+    "west": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2",
+    "particle": "the_backrooms:blocks/concrete_seamless_texture_set_volume_2"
+  }
+}

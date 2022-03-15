@@ -1,0 +1,12 @@
+{
+  "partygoerlaughshort": {
+    "category": "neutral",
+    "subtitle": "subtitles.partygoerlaughshort",
+    "sounds": [
+      {
+        "name": "the_backrooms:scary-laugh-sound-effect_hrywkbpt",
+        "stream": false
+      }
+    ]
+  }
+}

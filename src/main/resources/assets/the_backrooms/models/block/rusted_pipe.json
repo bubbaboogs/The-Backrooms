@@ -1,0 +1,8 @@
+{
+  "parent": "the_backrooms:custom/pipeblock",
+  "textures": {
+    "all": "the_backrooms:blocks/pipe",
+    "particle": "the_backrooms:blocks/pipe",
+    "0": "the_backrooms:blocks/pipe"
+  }
+}

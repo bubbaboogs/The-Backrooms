@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "the_backrooms:blocks/level0doorbottom",
+    "top": "the_backrooms:blocks/level0doortopanimated"
+  }
+}

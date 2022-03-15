@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145",
+    "up": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145",
+    "north": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145",
+    "east": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145",
+    "south": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145",
+    "west": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145",
+    "particle": "the_backrooms:blocks/white-armstrong-ceilings-drop-ceiling-tiles-949-64_145"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "mod_elements": [
+    {
+      "name": "Level0Wall",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_wall"
+    },
+    {
+      "name": "Level0WallBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_wall_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Level0Carpet",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_carpet"
+    },
+    {
+      "name": "Level0CarpetBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_carpet_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Level0NoclipWall",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_noclip_wall"
+    },
+    {
+      "name": "Level0Portal",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_portal"
+    },
+    {
+      "name": "Level0PortalBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_portal_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Concrete",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete"
+    },
+    {
+      "name": "ConcreteBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Level0Ceiling",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_ceiling"
+    },
+    {
+      "name": "Level0CeilingBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_ceiling_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Level0CeilingBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_ceiling_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightShards",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_shards"
+    },
+    {
+      "name": "Level0ceilinglight",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0ceilinglight"
+    },
+    {
+      "name": "Level0CeilingLight",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_ceiling_light"
+    },
+    {
+      "name": "Level0CeilingLightBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_ceiling_light_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Level0NoclipWallBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0_noclip_wall_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RustedPipe",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_pipe"
+    },
+    {
+      "name": "RustedPipeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusted_pipe_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "partygoerlaughshort",
+      "files": [
+        "scary-laugh-sound-effect_hrywkbpt"
+      ],
+      "category": "neutral",
+      "subtitle": "Partygoer Laughs"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.the_backrooms.level_0_portal": "Level 0 Portal",
+      "block.the_backrooms.level_0_ceiling": "Level 0 Ceiling",
+      "block.the_backrooms.level_0_wall": "Level 0 Wall",
+      "block.the_backrooms.rusted_pipe": "Rusted Pipe",
+      "block.the_backrooms.level_0_ceiling_light": "Level 0 Ceiling Light",
+      "block.the_backrooms.level_0_carpet": "Level 0 Carpet",
+      "block.the_backrooms.level_0_noclip_wall": "Level 0 No-Clip Wall",
+      "subtitles.partygoerlaughshort": "Partygoer Laughs",
+      "block.the_backrooms.concrete": "Concrete",
+      "item.the_backrooms.light_shards": "Light Shard"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_backrooms",
+    "modName": "The Backrooms",
+    "version": "1.0.0",
+    "author": "DEA, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.thebackrooms",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
